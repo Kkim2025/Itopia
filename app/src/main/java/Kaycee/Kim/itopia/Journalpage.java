@@ -11,5 +11,7 @@ public class Journalpage extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.journalpage);
+
+        int a= 3;
     }
 }
