@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Journal"
+                android:textSize="30sp"
+                android:layout_marginLeft="125dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis eget nunc ac laoreet. Proin aliquam bibendum vehicula. Vestibulum vehicula posuere urna, eget tincidunt felis laoreet eu. Sed porta neque eu diam faucibus lobortis. Aenean a est purus. Donec volutpat euismod ex non vestibulum. Aliquam sollicitudin ac diam non vulputate. Pellentesque tincidunt hendrerit risus vel consequat. Integer et nunc ultricies, vulputate mi id, molestie velit.
+
+" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Nam malesuada libero in tortor posuere imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse accumsan laoreet augue, non viverra turpis vulputate et. In hac habitasse platea dictumst. Cras eget nunc maximus, rhoncus orci vel, efficitur urna. In metus neque, dignissim et luctus id, sagittis sit amet lorem." />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
