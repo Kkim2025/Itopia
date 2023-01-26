@@ -12,6 +12,6 @@ public class Journalpage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.journalpage);
 
-        int a= 3;
+        int a= 3;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
     }
 }
