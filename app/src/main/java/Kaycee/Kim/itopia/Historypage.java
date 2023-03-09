@@ -36,5 +36,15 @@ public class Historypage extends AppCompatActivity {
             }
         });
 
+        Button btnmywork = findViewById(R.id.button14);
+
+        btnmywork.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Historypage.this, Portfolio.class);
+                startActivity(it);
+            }
+        });
+
     }
 }

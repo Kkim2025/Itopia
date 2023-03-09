@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@color/grey">
+    android:background="@color/purple_500">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="91dp"
         android:orientation="horizontal"
-        android:background="@color/grey">
+        android:background="@color/purple_500">
 
 
         <ImageButton
@@ -20,6 +20,7 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/hamburger"
             android:scaleType="fitXY"
+            android:backgroundTint="@color/purple_500"
             />
 
         <Button
@@ -29,6 +30,8 @@
             android:text="My Portal"
             android:textStyle="bold"
             android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/orange"
             />
 
         <Button
@@ -38,7 +41,9 @@
             android:text="Community"
             android:textStyle="bold"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
+            android:backgroundTint="@color/orange"
             />
 
 
@@ -52,7 +57,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:background="@color/purple_500">
 
             <ImageView
                 android:id="@+id/imageView10"

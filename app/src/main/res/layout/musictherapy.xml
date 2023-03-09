@@ -16,7 +16,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
-            android:text="Lyrics!" />
+            android:text="Lyrics!"
+            />
 
         <Button
             android:id="@+id/button6"
